@@ -41,6 +41,7 @@ nav ul li a:hover{
 #primary{
   padding: 0 0 1em 2em;
 }
+
 footer{
   position: fixed;
   bottom: 0;
@@ -49,5 +50,4 @@ footer{
   background-color: #005051ff;
   color: #fff;
   padding: 1em;
-
 }
