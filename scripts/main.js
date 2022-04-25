@@ -1,5 +1,4 @@
 if (new Date().getHours() > 18) {
-  //alert(new Date().getHours());
   const html = document.querySelector('html');
   html.style.backgroundColor = 'black';
   html.style.color = 'white';
@@ -11,8 +10,8 @@ if (new Date().getHours()> 18){
   wrapperBody[0].style.color = 'white';
 }
 
-if (new Date().getHours()> 18){
-  const header = document.getElementsByClassName('header') ;
-  html.style.backgroundColor = 'black';
-  html.style.color = 'white';
+if (new Date().getHours() > 18) {
+  const primaryBody = document.getElementById('primary');
+  primaryBody.style.backgroundColor = 'black';
+  primaryBody.style.color = 'white';
 }
